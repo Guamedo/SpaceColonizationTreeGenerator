@@ -229,6 +229,9 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OtherScripts/UnityOctree/Scripts/PointOctree.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs" root0="SKIP_HIGHLIGHTING" />
@@ -265,6 +268,7 @@
     <option name="width" value="1400" />
     <option name="height" value="820" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -347,12 +351,12 @@
       <workItem from="1530352668150" duration="2197000" />
       <workItem from="1530362203151" duration="1435000" />
       <workItem from="1530378392942" duration="4943000" />
-      <workItem from="1530629980150" duration="2647000" />
+      <workItem from="1530629980150" duration="2901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48794000" />
+    <option name="totallyTimeSpent" value="49048000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -372,7 +376,7 @@
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" visible="true" weight="0.32946634" />
       <window_info anchor="bottom" id="Unit Tests" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27427185" />

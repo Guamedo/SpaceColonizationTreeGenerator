@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 353622fafbb69c54fb0f5778b2e652c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  growDist: 4
+  growDist: 5
   attractDitsMult: 2
   removeDistMult: 1
   diskPoints: 8
