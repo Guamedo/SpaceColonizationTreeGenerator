@@ -36,7 +36,7 @@ public class TreeSC{
     /// <param name="growDist">The distance that grows each new branch</param>
     /// <param name="attractionDist">The maximum distanche at witch a branch can be attracted</param>
     /// <param name="pointList">List of points in the point cloud</param>
-    public void growTrunk(float growDist, float attractionDist, ref List<Vector3> pointList) {
+    public void growTrunk(float growDist, float attractionDist, ref List<Vector3> pointList, Vector3 tropism) {
         float minDist = Mathf.Infinity;
         bool found = false;
 
@@ -64,7 +64,7 @@ public class TreeSC{
             }
 
             if (!found) {
-                BranchSC newBranch = currentBranch.grow(growDist, true);
+                BranchSC newBranch = currentBranch.grow(growDist, true, tropism);
                 currentBranch = newBranch;
                 //endedBranchList.Add(growBranchList[growBranchList.Count - 1]);
                 //growBranchList.RemoveAt(growBranchList.Count - 1);
@@ -89,11 +89,11 @@ public class TreeSC{
     /// <param name="attractionDist">The maximum distanche at witch a branch can be attracted</param>
     /// <param name="removeDist">The maximum distance </param>
     /// <param name="pointList">List of points in the point cloud</param>
-    public void growTree(float growDist, float attractionDist, float removeDist ,ref List<Vector3> pointList)
+    public void growTree(float growDist, float attractionDist, float removeDist ,ref List<Vector3> pointList, Vector3 tropism)
     {
         while (canGrow)
         {
-            growTreeIteration(growDist, attractionDist, removeDist, ref pointList);
+            growTreeIteration(growDist, attractionDist, removeDist, ref pointList, tropism);
         }
         // Remove all the remaining points in the point cloud
         pointList.Clear();
@@ -112,7 +112,7 @@ public class TreeSC{
     /// <param name="attractionDist">The maximum distanche at witch a branch can be attracted</param>
     /// <param name="removeDist">The maximum distance </param>
     /// <param name="pointList">List of points in the point cloud</param>
-    public void growTreeIteration(float growDist, float attractionDist, float removeDist ,ref List<Vector3> pointList) {
+    public void growTreeIteration(float growDist, float attractionDist, float removeDist ,ref List<Vector3> pointList, Vector3 tropism) {
         
         if (this.canGrow) {
             
@@ -137,7 +137,7 @@ public class TreeSC{
             bool addedNewBranch = false;
             int branchNum = this.growBranchList.Count;
             for (int i = 0; i < branchNum; i++) {
-                BranchSC newBranch = this.growBranchList[i].grow(growDist, false);
+                BranchSC newBranch = this.growBranchList[i].grow(growDist, false, tropism);
                 if (newBranch == null) {
                     growBranchList.RemoveAt(i);
                     i--;

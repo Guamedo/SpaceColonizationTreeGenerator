@@ -37,10 +37,10 @@ public class BranchSC{
         branchMaterial = mat;
     }
 
-    public BranchSC grow(float growDist, bool growTrunk) {
+    public BranchSC grow(float growDist, bool growTrunk, Vector3 tropism) {
         if(this.growDir.magnitude > 0.5) {
 
-            Vector3 newPos = this.pos + this.growDir.normalized * growDist;
+            Vector3 newPos = this.pos + (this.growDir.normalized + tropism).normalized * growDist;
             foreach(BranchSC child in this.childs) {
                 if(Vector3.Distance(child.pos, newPos) <= 0.5) {
                     this.growDir = new Vector3(0.0f, 0.0f, 0.0f);

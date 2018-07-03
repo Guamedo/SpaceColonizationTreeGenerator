@@ -9,6 +9,8 @@ public class TreeGeneratorSC : MonoBehaviour {
     public float attractDitsMult;
     public float removeDistMult;
 
+    public Vector3 tropismVector = Vector3.zero;
+
     public int diskPoints = 8;
 
     public Material treeMat;
@@ -41,14 +43,14 @@ public class TreeGeneratorSC : MonoBehaviour {
         tree = new TreeSC(transform.position, treeMat);
 
         print("Growing the trunk...");
-        tree.growTrunk(growDist, attractDits, ref pointCloud.pointList);
+        tree.growTrunk(growDist, attractDits, ref pointCloud.pointList, tropismVector);
         
         print("Growing the tree...");
     }
 
     private void Update() {
         if (tree.canGrow){
-            tree.growTreeIteration(growDist, attractDits, removeDist, ref pointCloud.pointList);
+            tree.growTreeIteration(growDist, attractDits, removeDist, ref pointCloud.pointList, tropismVector);
         } else if(!treeGenerated)
         {
             treeGenerated = true;
