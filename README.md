@@ -1,6 +1,6 @@
 # SpaceColonizationTreeGenerator
 
-A procedural tree geberator for Unity using Space Colonization Algorithm
+A procedural tree generator for Unity using Space Colonization Algorithm
 
 ## Sapce Colonization
 
