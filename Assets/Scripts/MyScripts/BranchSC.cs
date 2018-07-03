@@ -32,6 +32,7 @@ public class BranchSC{
         hasLeaf = false;
         meshList = new List<BranchMesh>();
         go = new GameObject("Branch");
+        go.transform.position = pos;
         go.transform.parent = tree.transform;
         branchMaterial = mat;
     }
@@ -141,13 +142,6 @@ public class BranchSC{
                 meshList[i].endRing = new Ring(childs[i].pos, childs[i].pos - pos, childs[i].rad);
                 meshList[i].recalculateMesh();
             }
-
-            /*foreach (Transform child in go.transform)
-            {
-                child.gameObject.AddComponent<Rigidbody>();
-                child.gameObject.AddComponent<BoxCollider>();
-            }*/
-            
             childs[i].recalcualteMesh();
         }
     }
