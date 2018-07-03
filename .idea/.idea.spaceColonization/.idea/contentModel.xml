@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Elitebook\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor" t="Include">
+      <e p="Resources" t="Include">
+        <e p="Styles" t="Include">
+          <e p="Main_Dark.uss" t="Include" />
+          <e p="Main_Light.uss" t="Include" />
+        </e>
+        <e p="Templates" t="Include">
+          <e p="Alert.uxml" t="Include" />
+          <e p="PackageDetails.uxml" t="Include" />
+          <e p="PackageGroup.uxml" t="Include" />
+          <e p="PackageItem.uxml" t="Include" />
+          <e p="PackageList.uxml" t="Include" />
+          <e p="PackageManagerWindow.uxml" t="Include" />
+          <e p="PackageSearchFilterTabs.uxml" t="Include" />
+        </e>
+      </e>
+      <e p="Unity.PackageManagerUI.Editor.asmdef" t="Include" />
+    </e>
+    <e p="C:\Users\Elitebook\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Tests\Editor" t="Include">
+      <e p="Unity.PackageManagerUI.EditorTests.asmdef" t="Include" />
+    </e>
+    <e p="C:\Users\Elitebook\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.standardevents@1.0.13\Editor" t="Include">
+      <e p="Editor.asmdef" t="Include" />
+    </e>
+    <e p="C:\Users\Gontxal\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_spaceColonization.1246393819.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Gontxal\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Editor" t="Include">
+      <e p="AssemblyInfo.cs" t="Include" />
+      <e p="Resources" t="Include">
+        <e p="Styles" t="Include">
+          <e p="Main_Dark.uss" t="Include" />
+          <e p="Main_Light.uss" t="Include" />
+        </e>
+        <e p="Templates" t="Include">
+          <e p="Alert.uxml" t="Include" />
+          <e p="PackageDetails.uxml" t="Include" />
+          <e p="PackageGroup.uxml" t="Include" />
+          <e p="PackageItem.uxml" t="Include" />
+          <e p="PackageList.uxml" t="Include" />
+          <e p="PackageManagerWindow.uxml" t="Include" />
+          <e p="PackageSearchFilterTabs.uxml" t="Include" />
+        </e>
+      </e>
+      <e p="Sources" t="Include">
+        <e p="External" t="Include">
+          <e p="SemVersion.cs" t="Include" />
+          <e p="SemVersionExtension.cs" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="Common" t="Include">
+            <e p="OperationSignal.cs" t="Include" />
+            <e p="ThreadedDelay.cs" t="Include" />
+          </e>
+          <e p="Interfaces" t="Include">
+            <e p="IAddOperation.cs" t="Include" />
+            <e p="IBaseOperation.cs" t="Include" />
+            <e p="IListOperation.cs" t="Include" />
+            <e p="IOperationFactory.cs" t="Include" />
+            <e p="IRemoveOperation.cs" t="Include" />
+            <e p="ISearchOperation.cs" t="Include" />
+          </e>
+          <e p="OperationFactory.cs" t="Include" />
+          <e p="packages" t="Include">
+            <e p="Package.cs" t="Include" />
+            <e p="PackageCollection.cs" t="Include" />
+            <e p="PackageFilter.cs" t="Include" />
+            <e p="PackageGroupOrigins.cs" t="Include" />
+            <e p="PackageInfo.cs" t="Include" />
+            <e p="PackageInfoListExtensions.cs" t="Include" />
+            <e p="PackageListExtensions.cs" t="Include" />
+            <e p="PackageOrigin.cs" t="Include" />
+            <e p="PackageState.cs" t="Include" />
+            <e p="PackageTag.cs" t="Include" />
+          </e>
+          <e p="Upm" t="Include">
+            <e p="UpmAddOperation.cs" t="Include" />
+            <e p="UpmBaseOperation.cs" t="Include" />
+            <e p="UpmListOperation.cs" t="Include" />
+            <e p="UpmOperationFactory.cs" t="Include" />
+            <e p="UpmRemoveOperation.cs" t="Include" />
+            <e p="UpmSearchOperation.cs" t="Include" />
+          </e>
+        </e>
+        <e p="UI" t="Include">
+          <e p="Common" t="Include">
+            <e p="Alert.cs" t="Include" />
+            <e p="LoadingSpinner.cs" t="Include" />
+            <e p="UIUtils.cs" t="Include" />
+          </e>
+          <e p="PackageDetails.cs" t="Include" />
+          <e p="PackageGroup.cs" t="Include" />
+          <e p="PackageItem.cs" t="Include" />
+          <e p="PackageList.cs" t="Include" />
+          <e p="PackageManagerWindow.cs" t="Include" />
+          <e p="PackageSearchFilterTabs.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Unity.PackageManagerUI.Editor.asmdef" t="Include" />
+    </e>
+    <e p="C:\Users\Gontxal\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.package-manager-ui@1.8.8\Tests\Editor" t="Include">
+      <e p="Unity.PackageManagerUI.EditorTests.asmdef" t="Include" />
+    </e>
+    <e p="C:\Users\Gontxal\AppData\Local\Unity\cache\packages\packages.unity.com\com.unity.standardevents@1.0.13\Editor" t="Include">
+      <e p="Editor.asmdef" t="Include" />
+      <e p="Importer.cs" t="Include" />
+    </e>
+    <e p="C:\Users\Gontxal\Documents\Unity Projects\Space Colonization" t="IncludeRecursive">
+      <e p="Assets" t="Include">
+        <e p="Sprites" t="Include">
+          <e p="Branch.cs" t="Include" />
+          <e p="FirsPersonCamera.cs" t="Include" />
+          <e p="PointRotation.cs" t="Include" />
+          <e p="PointsCloud.cs" t="Include" />
+          <e p="TreeGenerator.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="spaceColonization.csproj" t="IncludeRecursive" />
+      <e p="spaceColonization.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="UnityVS_bin\Debug" t="ExcludeRecursive" />
+        <e p="UnityVS_obj\Debug" t="ExcludeRecursive" />
+      </e>
+      <e p="Unity.PackageManagerUI.Editor.csproj" t="IncludeRecursive" />
+      <e p="UnityEditor.StandardEvents.csproj" t="IncludeRecursive" />
+    </e>
+  </component>
+</project>

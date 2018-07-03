@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a1a7f5c-9e11-4fa6-9f13-dca7c1b19cee" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Eneritz.mat" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Materials/Eneritz.mat">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-681" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Sprites/TreeGeneratorSC.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sprites/PointCloud.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Sprites/TreeGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="99" />
+    <option name="y" value="-23" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="spaceColonization" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="spaceColonization" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="spaceColonization" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="spaceColonization" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="spaceColonization" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+      <pane id="SolutionExplorer">
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a1a7f5c-9e11-4fa6-9f13-dca7c1b19cee" name="Default" comment="" />
+      <created>1530196469487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530196469487</updated>
+      <workItem from="1530196471695" duration="143000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="143000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21529563" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/Sprites/PointCloud.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sprites/TreeGenerator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="45" column="28" lean-forward="true" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <marker date="1530110691215" expanded="false" signature="6:71" ph="..." />
+            <marker date="1530110691215" expanded="true" signature="116:11204" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="140:1212" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="284:1206" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="477:920" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="1062:1169" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="1690:2353" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="1701:1777" ph="/* Generate the atraction points ... */" />
+            <marker date="1530110691215" expanded="true" signature="2412:2961" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="2447:2696" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="2579:2669" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="2716:2955" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="2995:3419" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="3006:3133" ph="/* for (int i = 0; i &lt; pointCloud.pointList.Count; i++) { ... */" />
+            <marker date="1530110691215" expanded="true" signature="3157:3413" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="3205:3403" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="3248:3389" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="3449:4050" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="3532:4044" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="3609:3774" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="3707:3760" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="3799:4034" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="4079:5470" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="4143:4727" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="4273:4586" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="4309:4572" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="4446:4554" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="4625:4717" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="4802:5076" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="4834:5066" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="4928:4985" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="5139:5464" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="5223:5454" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="5311:5440" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="5500:5590" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="5544:5584" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="5625:5890" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="5669:5884" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="5923:11202" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="6070:10144" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="6126:10122" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="6622:8448" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="7168:7706" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="7980:8367" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="8824:8925" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="8983:9102" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="9321:9733" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="9796:9981" ph="{...}" />
+            <marker date="1530110691215" expanded="true" signature="10154:11196" ph="/* MeshFilter[] meshFilters = tree.GetComponentsInChildren&lt;MeshFilter&gt;(); ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Sprites/TreeGeneratorSC.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Materials/Eneritz.mat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-681" />
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Gontxal\.Rider2018.1\system\resharper-host\Local\Transient\ReSharperHost\v12\SolutionCaches\_Space Colonization.33019901.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Gontxal\Documents\Unity Projects\Space Colonization" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Editor" t="Include">
+          <e p="ObjExporterScript.cs" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Deprecated" t="Include">
+            <e p="Branch.cs" t="Include" />
+            <e p="TreeGenerator.cs" t="Include" />
+          </e>
+          <e p="MyScripts" t="Include">
+            <e p="BranchMesh.cs" t="Include" />
+            <e p="BranchSC.cs" t="Include" />
+            <e p="FirsPersonCamera.cs" t="Include" />
+            <e p="PointCloud.cs" t="Include" />
+            <e p="TreeGeneratorSC.cs" t="Include" />
+            <e p="TreeSC.cs" t="Include" />
+          </e>
+          <e p="OtherScripts" t="Include">
+            <e p="MeshHelper.cs" t="Include" />
+            <e p="UnityOctree" t="Include">
+              <e p="Scripts" t="Include">
+                <e p="BoundsOctree.cs" t="Include" />
+                <e p="BoundsOctreeNode.cs" t="Include" />
+                <e p="PointOctree.cs" t="Include" />
+                <e p="PointOctreeNode.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Space Colonization.sln" t="IncludeFlat" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
