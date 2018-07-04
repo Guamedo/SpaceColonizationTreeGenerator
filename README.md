@@ -8,4 +8,6 @@ Space Colonization is an algorithm for creating procedural tree models described
 
 ## Results
 
-![Alt text](images/SapceColonizationTree.JPG?raw=true "Procedural Tree")
+<p align="center">
+  <img width="600" src="images/SapceColonizationTree.JPG">
+</p>
