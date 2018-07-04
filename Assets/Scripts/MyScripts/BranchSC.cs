@@ -13,6 +13,8 @@ public class BranchSC{
     public List<BranchSC> childs;
 
     public bool hasLeaf;
+    public List<GameObject> leaves;
+    public List<float> leavesTimeOut;
     public bool isTrunk;
     
     public Material branchMaterial;
@@ -33,6 +35,8 @@ public class BranchSC{
         go.transform.position = pos;
         go.transform.parent = tree.transform;
         branchMaterial = mat;
+        leaves = new List<GameObject>();
+        leavesTimeOut = new List<float>();
     }
 
     public BranchSC grow(float growDist, bool growTrunk, Vector3 tropism) {
@@ -76,8 +80,10 @@ public class BranchSC{
             GameObject newBranchObject = new GameObject("BranchChild");
             newBranchObject.AddComponent<MeshRenderer>();
             newBranchObject.AddComponent<MeshFilter>();
+            newBranchObject.AddComponent<MeshCollider>();
             newBranchObject.GetComponent<MeshFilter>().mesh = newMesh.mesh;
             newBranchObject.GetComponent<MeshRenderer>().material = branchMaterial;
+            newBranchObject.GetComponent<MeshCollider>().sharedMesh = newMesh.mesh;
             newBranchObject.transform.parent = go.transform;
             meshList.Add(newMesh);
             
@@ -139,6 +145,7 @@ public class BranchSC{
                 meshList[i].endRing = new Ring(childs[i].pos, childs[i].pos - pos, childs[i].rad);
                 meshList[i].recalculateMesh();
             }
+            
             childs[i].recalcualteMesh();
         }
     }
@@ -150,17 +157,19 @@ public class BranchSC{
             for (int i = 0; i < (int)Random.RandomRange(2, 10); i++)
             {
                 TwoSideQuad quad = new TwoSideQuad(pos, 2.0f);
-                quad.generateQuad(c1, c2);
+                leaves.Add(quad.generateQuad(c1, c2));
+                leavesTimeOut.Add(Random.Range(5.0f, 60.0f));
             }
             hasLeaf = true;
         } else
         {
-            if (!isTrunk)
+            if (!isTrunk && rad <= 0.1f)
             {
                 for (int i = 0; i < (int)Random.RandomRange(0, 1); i++)
                 {
                     TwoSideQuad quad = new TwoSideQuad(pos, 2.0f);
-                    quad.generateQuad(c1, c2);
+                    leaves.Add(quad.generateQuad(c1, c2));
+                    leavesTimeOut.Add(Random.Range(5.0f, 60.0f));
                 }
                 hasLeaf = true;
             }
@@ -168,6 +177,23 @@ public class BranchSC{
             {
                 childs[i].generateLeaves(c1, c2);
             }
+        }
+    }
+
+    public void updateLeaves(float t)
+    {
+        for (int i = 0; i < leaves.Count; i++)
+        {
+            if (leavesTimeOut[i] <= t)
+            {
+                leaves[i].AddComponent<Rigidbody>();
+                leavesTimeOut[i] = Mathf.Infinity;
+            }
+        }
+
+        for (int i = 0; i < childs.Count; i++)
+        {
+            childs[i].updateLeaves(t);
         }
     }
 }

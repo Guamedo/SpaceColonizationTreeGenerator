@@ -95,9 +95,12 @@ public class TwoSideQuad{
 
         go.GetComponent<MeshRenderer>().material = new Material(Shader.Find("Standard"));
         go.GetComponent<MeshRenderer>().material.color = Color.Lerp(col1, col2, Random.Range(0.0f, 1.0f));
+        go.AddComponent<BoxCollider>();
+        go.GetComponent<BoxCollider>().size = new Vector3(go.GetComponent<BoxCollider>().size.x,
+                                                            go.GetComponent<BoxCollider>().size.y, 
+                                                            0.1f);
         go.transform.position = pos;
         go.transform.eulerAngles = rotation;
-
         return go;
     }
 }

@@ -60,6 +60,9 @@ public class TreeGeneratorSC : MonoBehaviour {
             tree.nodeRelocation();
             tree.generateLeaves(leaveColor1, leaveColor2);
             pointCloud.pointList.Clear();
+        } else
+        {
+            tree.updateLeaves(Time.time);
         }
     }
 

@@ -180,4 +180,9 @@ public class TreeSC{
         root.generateLeaves(c1, c2);
     }
 
+    public void updateLeaves(float t)
+    {
+        root.updateLeaves(t);
+    }
+
 }
