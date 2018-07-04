@@ -17,6 +17,9 @@ public class TreeGeneratorSC : MonoBehaviour {
 
     public PointCloud pointCloud = new PointCloud();
 
+    public Color leaveColor1;
+    public Color leaveColor2;
+
     private float attractDits;
     private float removeDist;
 
@@ -55,6 +58,7 @@ public class TreeGeneratorSC : MonoBehaviour {
         {
             treeGenerated = true;
             tree.nodeRelocation();
+            tree.generateLeaves(leaveColor1, leaveColor2);
             pointCloud.pointList.Clear();
         }
     }
@@ -62,9 +66,10 @@ public class TreeGeneratorSC : MonoBehaviour {
     private void OnDrawGizmos() {
         Gizmos.color = Color.black;
         
-        /*if (treeGenerated) {
-            drawBranch(tree.root);
-        }*/
+        if (treeGenerated)
+        {
+            //drawLeaves(tree.root);
+        }
         
         foreach(Vector3 point in pointCloud.pointList) {
             Gizmos.color = Color.green;
@@ -76,6 +81,21 @@ public class TreeGeneratorSC : MonoBehaviour {
         for(int i = 0; i < branch.childs.Count; i++) {
             Gizmos.DrawLine(branch.pos, branch.childs[i].pos);
             drawBranch(branch.childs[i]);
+        }
+    }
+
+    private void drawLeaves(BranchSC branch)
+    {
+        if (branch.hasLeaf)
+        {
+            Gizmos.color = Color.green;
+            Gizmos.DrawSphere(branch.pos, 2.0f);
+        } else
+        {
+            for (int i = 0; i < branch.childs.Count; i++)
+            {
+                drawLeaves(branch.childs[i]);
+            }
         }
     }
 

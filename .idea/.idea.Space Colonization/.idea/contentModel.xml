@@ -21,6 +21,7 @@
             <e p="PointCloud.cs" t="Include" />
             <e p="TreeGeneratorSC.cs" t="Include" />
             <e p="TreeSC.cs" t="Include" />
+            <e p="TwoSideQuad.cs" t="Include" />
           </e>
           <e p="OtherScripts" t="Include">
             <e p="MeshHelper.cs" t="Include" />

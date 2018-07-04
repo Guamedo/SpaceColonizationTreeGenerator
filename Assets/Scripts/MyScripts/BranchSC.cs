@@ -11,8 +11,7 @@ public class BranchSC{
     
     public BranchSC parent;
     public List<BranchSC> childs;
-    
-    public bool isEnd;
+
     public bool hasLeaf;
     public bool isTrunk;
     
@@ -28,7 +27,6 @@ public class BranchSC{
         childs = new List<BranchSC>();
         rad = initialRad;
         growDir = new Vector3(0.0f, 0.0f, 0.0f);
-        isEnd = false;
         hasLeaf = false;
         meshList = new List<BranchMesh>();
         go = new GameObject("Branch");
@@ -62,7 +60,7 @@ public class BranchSC{
 
             BranchMesh newMesh;
             if (this.parent != null){
-                newMesh = new BranchMesh(this.pos,
+                newMesh = new BranchMesh(this.pos, 
                                         this.pos - this.parent.pos,
                                         newBranch.pos - this.pos,
                                         this.rad,
@@ -86,7 +84,6 @@ public class BranchSC{
             return newBranch;
         } else {
             this.growDir = new Vector3(0.0f, 0.0f, 0.0f);
-            this.isEnd = true;
             return null;
         }
     }
@@ -143,6 +140,34 @@ public class BranchSC{
                 meshList[i].recalculateMesh();
             }
             childs[i].recalcualteMesh();
+        }
+    }
+
+    public void generateLeaves(Color c1, Color c2)
+    {
+        if (childs.Count == 0)
+        {
+            for (int i = 0; i < (int)Random.RandomRange(2, 10); i++)
+            {
+                TwoSideQuad quad = new TwoSideQuad(pos, 2.0f);
+                quad.generateQuad(c1, c2);
+            }
+            hasLeaf = true;
+        } else
+        {
+            if (!isTrunk)
+            {
+                for (int i = 0; i < (int)Random.RandomRange(0, 1); i++)
+                {
+                    TwoSideQuad quad = new TwoSideQuad(pos, 2.0f);
+                    quad.generateQuad(c1, c2);
+                }
+                hasLeaf = true;
+            }
+            for (int i = 0; i < childs.Count; i++)
+            {
+                childs[i].generateLeaves(c1, c2);
+            }
         }
     }
 }

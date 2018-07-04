@@ -175,4 +175,9 @@ public class TreeSC{
         root.recalcualteMesh();
     }
 
+    public void generateLeaves(Color c1, Color c2)
+    {
+        root.generateLeaves(c1, c2);
+    }
+
 }

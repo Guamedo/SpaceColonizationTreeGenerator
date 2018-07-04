@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0aac74fa-997a-493b-ae7e-0a8e43534f8a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/DefaultTreeMat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/DefaultTreeMat.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/s0.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/s0.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/MyScripts/TwoSideQuad.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Space Colonization/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space Colonization/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Space Colonization/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Space Colonization/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeGeneratorSC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeGeneratorSC.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeSC.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeSC.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,34 +18,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BranchSC.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BranchSC.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="42" column="98" lean-forward="true" selection-start-line="42" selection-start-column="98" selection-end-line="42" selection-end-column="98" />
+            <state relative-caret-position="111">
+              <caret line="151" column="62" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="62" />
               <folding>
-                <marker date="1530638853768" expanded="false" signature="6:82" ph="..." />
-                <marker date="1530638853768" expanded="true" signature="105:4966" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="594:1038" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="1114:3303" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="1157:3166" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="1310:1507" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="1375:1493" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="1540:1751" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="1619:1737" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="2030:2336" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="3351:3841" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="3388:3428" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="3520:3598" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="3703:3796" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="3894:3943" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="3972:4016" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="4050:4255" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="4104:4249" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="4290:4964" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="4343:4958" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="4385:4637" ph="{...}" />
-                <marker date="1530638853768" expanded="true" signature="4642:4907" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="6:82" ph="..." />
+                <marker date="1530706776399" expanded="true" signature="105:5694" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="567:988" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="1064:3223" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="1107:3117" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="1260:1457" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="1325:1443" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="1490:1701" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="1569:1687" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="1980:2287" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="3271:3761" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="3308:3348" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="3440:3518" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="3623:3716" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="3814:3863" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="3892:3936" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="3970:4175" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="4024:4169" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="4210:4884" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="4263:4878" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="4305:4557" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="4562:4827" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="4936:5692" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="4973:5224" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="5052:5186" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="5229:5686" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="5265:5547" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="5351:5501" ph="{...}" />
+                <marker date="1530706776399" expanded="true" signature="5598:5676" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeSC.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeSC.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="179" column="34" selection-start-line="179" selection-start-column="34" selection-end-line="179" selection-end-column="34" />
+              <folding>
+                <marker date="1530705144538" expanded="false" signature="6:52" ph="..." />
+                <marker date="1530705144538" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
+                <marker date="1530705144538" expanded="true" signature="208:7202" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
+                <marker date="1530705144538" expanded="true" signature="717:935" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
+                <marker date="1530705144538" expanded="true" signature="1412:3012" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="1603:2882" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
+                <marker date="1530705144538" expanded="true" signature="1780:2353" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="2172:2339" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="2260:2321" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="2379:2718" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
+                <marker date="1530705144538" expanded="true" signature="2908:2977" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
+                <marker date="1530705144538" expanded="true" signature="3622:3968" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="3652:3765" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
+                <marker date="1530705144538" expanded="true" signature="4728:6989" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="4765:6983" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
+                <marker date="1530705144538" expanded="true" signature="4944:5568" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="5101:5352" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="5229:5334" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="5421:5554" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="5807:6198" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="5940:6065" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="6291:6339" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="6490:6856" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="6595:6842" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="6690:6824" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="7023:7098" ph="{...}" />
+                <marker date="1530705144538" expanded="true" signature="7150:7199" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoSideQuad.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TwoSideQuad.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1377">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+              <folding>
+                <marker date="1530707486099" expanded="true" signature="6:78" ph="..." />
+                <marker date="1530707486099" expanded="true" signature="104:2620" ph="{...}" />
+                <marker date="1530707486099" expanded="true" signature="258:420" ph="{...}" />
+                <marker date="1530707486099" expanded="true" signature="481:2618" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,7 +121,7 @@
       <file leaf-file-name="PointCloud.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/PointCloud.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-1892">
               <folding>
                 <marker date="1530206594341" expanded="false" signature="6:52" ph="..." />
                 <marker date="1530206594341" expanded="true" signature="155:4600" ph="{...}" />
@@ -79,73 +143,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TreeSC.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeSC.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="66" column="81" selection-start-line="66" selection-start-column="81" selection-end-line="66" selection-end-column="81" />
-              <folding>
-                <marker date="1530638655321" expanded="false" signature="6:52" ph="..." />
-                <marker date="1530638655321" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
-                <marker date="1530638655321" expanded="true" signature="208:7101" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
-                <marker date="1530638655321" expanded="true" signature="717:935" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
-                <marker date="1530638655321" expanded="true" signature="1412:3012" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="1603:2882" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
-                <marker date="1530638655321" expanded="true" signature="1780:2353" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="2172:2339" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="2260:2321" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="2379:2718" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
-                <marker date="1530638655321" expanded="true" signature="2908:2977" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
-                <marker date="1530638655321" expanded="true" signature="3622:3968" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="3652:3765" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
-                <marker date="1530638655321" expanded="true" signature="4728:6989" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="4765:6983" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
-                <marker date="1530638655321" expanded="true" signature="4944:5568" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="5101:5352" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="5229:5334" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="5421:5554" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="5807:6198" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="5940:6065" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="6291:6339" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="6490:6856" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="6595:6842" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="6690:6824" ph="{...}" />
-                <marker date="1530638655321" expanded="true" signature="7023:7098" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TreeGeneratorSC.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeGeneratorSC.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="289">
+              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
               <folding>
-                <marker date="1530638664283" expanded="false" signature="6:78" ph="..." />
-                <marker date="1530638664283" expanded="true" signature="125:3735" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="543:1285" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="707:766" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="1313:1624" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="1340:1463" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="1487:1618" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="1658:1948" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="1713:1782" ph="/* if (treeGenerated) { ... */" />
-                <marker date="1530638664283" expanded="true" signature="1847:1942" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="1995:2172" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="2050:2166" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="2178:2899" ph="/* private void generateMesh(BranchSC branch) ... */" />
-                <marker date="1530638664283" expanded="true" signature="2951:3732" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="2994:3726" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="3064:3569" ph="{...}" />
-                <marker date="1530638664283" expanded="true" signature="3640:3716" ph="{...}" />
+                <marker date="1530705189080" expanded="false" signature="6:78" ph="..." />
+                <marker date="1530705189080" expanded="true" signature="125:4213" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="604:1346" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="768:827" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="1374:1744" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="1401:1524" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="1548:1738" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="1778:2074" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="1851:1908" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="1973:2068" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="2121:2298" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="2176:2292" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="2344:2650" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="2378:2487" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="2492:2644" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="2560:2634" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="2656:3377" ph="/* private void generateMesh(BranchSC branch) ... */" />
+                <marker date="1530705189080" expanded="true" signature="3429:4210" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="3472:4204" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="3542:4047" ph="{...}" />
+                <marker date="1530705189080" expanded="true" signature="4118:4194" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -154,7 +178,7 @@
       <file leaf-file-name="BranchMesh.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchMesh.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="993">
+            <state relative-caret-position="723">
               <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
               <folding>
                 <marker date="1530632728423" expanded="false" signature="6:52" ph="..." />
@@ -184,12 +208,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/OtherScripts/UnityOctree/Scripts/PointOctree.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchMesh.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchMesh.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Deprecated/TreeGenerator.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/PointCloud.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeSC.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeGeneratorSC.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TwoSideQuad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/PointCloud.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeSC.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeGeneratorSC.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -200,6 +225,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeSC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeGeneratorSC.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyScripts/TwoSideQuad.cs" />
       </list>
     </option>
   </component>
@@ -224,7 +250,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Space Colonization" type="483dac07:UnityExplorerNode$Root" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Space Colonization" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Space Colonization" type="483dac07:UnityExplorerNode$Root" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+              <item name="" type="1045f7f1:UnityExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -264,29 +312,7 @@
         <option name="show-file-system" value="false" />
         <option name="show-all-items" value="false" />
       </pane>
-      <pane id="UnityExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Space Colonization" type="483dac07:UnityExplorerNode$Root" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Space Colonization" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-            <path>
-              <item name="" type="ad4990d8:FileSystemViewPaneBase$ProjectViewPaneTreeStructure$createRoot$1" />
-              <item name="Space Colonization" type="483dac07:UnityExplorerNode$Root" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-              <item name="" type="1045f7f1:UnityExplorerNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-hidden-items" value="false" />
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,11 +354,12 @@
       <workItem from="1530362203151" duration="1435000" />
       <workItem from="1530378392942" duration="4943000" />
       <workItem from="1530629980150" duration="6272000" />
+      <workItem from="1530699201866" duration="6718000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52419000" />
+    <option name="totallyTimeSpent" value="59137000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,13 +375,13 @@
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" visible="true" weight="0.32946634" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="14" side_tool="true" visible="true" weight="0.32946634" />
       <window_info anchor="bottom" id="Unit Tests" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27427185" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27912623" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unity" order="9" />
       <window_info anchor="right" id="Database" order="4" />
@@ -381,31 +408,196 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="42" column="98" lean-forward="true" selection-start-line="42" selection-start-column="98" selection-end-line="42" selection-end-column="98" />
+          <folding>
+            <marker date="1530706776399" expanded="true" signature="6:82" ph="..." />
+            <marker date="1530706776399" expanded="true" signature="105:5694" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="567:988" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1064:3223" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1107:3117" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1260:1457" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1325:1443" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1490:1701" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1569:1687" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1980:2287" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3271:3761" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3308:3348" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3440:3518" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3623:3716" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3814:3863" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3892:3936" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3970:4175" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4024:4169" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4210:4884" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4263:4878" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4305:4557" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4562:4827" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4936:5692" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4973:5224" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5052:5186" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5229:5686" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5265:5547" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5351:5501" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5598:5676" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/PointCloud.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1530206594341" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530206594341" expanded="true" signature="155:4600" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="539:555" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="591:2624" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="691:2618" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="850:930" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="1284:1879" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="1742:1813" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="2387:2463" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="2666:3423" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="3374:3417" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="3469:4244" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="4195:4238" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="4300:4598" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="4515:4592" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeSC.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="66" column="81" selection-start-line="66" selection-start-column="81" selection-end-line="66" selection-end-column="81" />
+          <folding>
+            <marker date="1530705144538" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530705144538" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
+            <marker date="1530705144538" expanded="true" signature="208:7202" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
+            <marker date="1530705144538" expanded="true" signature="717:935" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
+            <marker date="1530705144538" expanded="true" signature="1412:3012" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1603:2882" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
+            <marker date="1530705144538" expanded="true" signature="1780:2353" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2172:2339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2260:2321" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2379:2718" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
+            <marker date="1530705144538" expanded="true" signature="2908:2977" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
+            <marker date="1530705144538" expanded="true" signature="3622:3968" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3652:3765" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
+            <marker date="1530705144538" expanded="true" signature="4728:6989" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4765:6983" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
+            <marker date="1530705144538" expanded="true" signature="4944:5568" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5101:5352" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5229:5334" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5421:5554" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5807:6198" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5940:6065" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6291:6339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6490:6856" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6595:6842" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6690:6824" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7150:7199" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeGeneratorSC.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <marker date="1530705189080" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530705189080" expanded="true" signature="125:4213" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="604:1346" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="768:827" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1374:1744" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1401:1524" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1548:1738" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1778:2074" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1851:1908" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1973:2068" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2121:2298" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2176:2292" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2344:2650" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2378:2487" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2492:2644" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2560:2634" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2656:3377" ph="/* private void generateMesh(BranchSC branch) ... */" />
+            <marker date="1530705189080" expanded="true" signature="3429:4210" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3472:4204" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3542:4047" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="4118:4194" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchMesh.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1649">
+          <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
+          <folding>
+            <marker date="1530632728423" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530632728423" expanded="true" signature="71:987" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="218:985" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="420:750" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="862:951" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="1012:3867" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="1107:1339" ph="/* private Vector3 startPoint; ... */" />
+            <marker date="1530632728423" expanded="true" signature="1496:3031" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="1910:2397" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="2521:2746" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="2792:2933" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="3091:3487" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="3257:3456" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="3520:3864" ph="{...}" />
+            <marker date="1530632728423" expanded="true" signature="3634:3833" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2346">
           <caret line="138" column="61" lean-forward="true" selection-start-line="138" selection-start-column="61" selection-end-line="138" selection-end-column="61" />
           <folding>
-            <marker date="1530638853768" expanded="false" signature="6:82" ph="..." />
-            <marker date="1530638853768" expanded="true" signature="105:4966" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="594:1038" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1114:3303" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1157:3166" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1310:1507" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1375:1493" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1540:1751" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1619:1737" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="2030:2336" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3351:3841" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3388:3428" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3520:3598" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3703:3796" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3894:3943" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3972:4016" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4050:4255" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4104:4249" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4290:4964" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4343:4958" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4385:4637" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4642:4907" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="6:82" ph="..." />
+            <marker date="1530706776399" expanded="true" signature="105:5694" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="567:988" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1064:3223" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1107:3117" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1260:1457" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1325:1443" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1490:1701" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1569:1687" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1980:2287" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3271:3761" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3308:3348" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3440:3518" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3623:3716" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3814:3863" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3892:3936" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3970:4175" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4024:4169" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4210:4884" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4263:4878" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4305:4557" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4562:4827" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4936:5692" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4973:5224" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5052:5186" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5229:5686" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5265:5547" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5351:5501" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5598:5676" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -438,122 +630,73 @@
         <state relative-caret-position="2941">
           <caret line="174" column="31" selection-start-line="174" selection-start-column="31" selection-end-line="174" selection-end-column="31" />
           <folding>
-            <marker date="1530638655321" expanded="false" signature="6:52" ph="..." />
-            <marker date="1530638655321" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
-            <marker date="1530638655321" expanded="true" signature="208:7101" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
-            <marker date="1530638655321" expanded="true" signature="717:935" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
-            <marker date="1530638655321" expanded="true" signature="1412:3012" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1603:2882" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
-            <marker date="1530638655321" expanded="true" signature="1780:2353" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2172:2339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2260:2321" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2379:2718" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
-            <marker date="1530638655321" expanded="true" signature="2908:2977" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
-            <marker date="1530638655321" expanded="true" signature="3622:3968" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3652:3765" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
-            <marker date="1530638655321" expanded="true" signature="4728:6989" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4765:6983" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
-            <marker date="1530638655321" expanded="true" signature="4944:5568" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5101:5352" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5229:5334" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5421:5554" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5807:6198" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5940:6065" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6291:6339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6490:6856" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6595:6842" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6690:6824" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530705144538" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
+            <marker date="1530705144538" expanded="true" signature="208:7202" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
+            <marker date="1530705144538" expanded="true" signature="717:935" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
+            <marker date="1530705144538" expanded="true" signature="1412:3012" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1603:2882" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
+            <marker date="1530705144538" expanded="true" signature="1780:2353" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2172:2339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2260:2321" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2379:2718" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
+            <marker date="1530705144538" expanded="true" signature="2908:2977" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
+            <marker date="1530705144538" expanded="true" signature="3622:3968" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3652:3765" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
+            <marker date="1530705144538" expanded="true" signature="4728:6989" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4765:6983" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
+            <marker date="1530705144538" expanded="true" signature="4944:5568" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5101:5352" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5229:5334" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5421:5554" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5807:6198" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5940:6065" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6291:6339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6490:6856" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6595:6842" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6690:6824" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7150:7199" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Deprecated/TreeGenerator.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1530110691215" expanded="false" signature="6:71" ph="..." />
-            <marker date="1530110691215" expanded="true" signature="116:11204" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="140:1212" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="284:1206" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="477:920" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="1062:1169" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="1690:2353" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="1701:1777" ph="/* Generate the atraction points ... */" />
-            <marker date="1530110691215" expanded="true" signature="2412:2961" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="2447:2696" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="2579:2669" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="2716:2955" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="2995:3419" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3006:3133" ph="/* for (int i = 0; i &lt; pointCloud.pointList.Count; i++) { ... */" />
-            <marker date="1530110691215" expanded="true" signature="3157:3413" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3205:3403" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3248:3389" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3449:4050" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3532:4044" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3609:3774" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3707:3760" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3799:4034" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4079:5470" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4143:4727" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4273:4586" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4309:4572" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4446:4554" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4625:4717" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4802:5076" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4834:5066" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4928:4985" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5139:5464" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5223:5454" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5311:5440" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5500:5590" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5544:5584" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5625:5890" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5669:5884" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5923:11202" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="6070:10144" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="6126:10122" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="6622:8448" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="7168:7706" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="7980:8367" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="8824:8925" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="8983:9102" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="9321:9733" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="9796:9981" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="10154:11196" ph="/* MeshFilter[] meshFilters = tree.GetComponentsInChildren&lt;MeshFilter&gt;(); ... */" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeGeneratorSC.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1122">
           <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
           <folding>
-            <marker date="1530638664283" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530638664283" expanded="true" signature="125:3735" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="543:1285" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="707:766" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1313:1624" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1340:1463" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1487:1618" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1658:1948" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1713:1782" ph="/* if (treeGenerated) { ... */" />
-            <marker date="1530638664283" expanded="true" signature="1847:1942" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1995:2172" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2050:2166" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2178:2899" ph="/* private void generateMesh(BranchSC branch) ... */" />
-            <marker date="1530638664283" expanded="true" signature="2951:3732" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2994:3726" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3064:3569" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3640:3716" ph="{...}" />
+            <marker date="1530705189080" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530705189080" expanded="true" signature="125:4213" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="604:1346" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="768:827" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1374:1744" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1401:1524" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1548:1738" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1778:2074" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1851:1908" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1973:2068" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2121:2298" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2176:2292" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2344:2650" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2378:2487" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2492:2644" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2560:2634" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2656:3377" ph="/* private void generateMesh(BranchSC branch) ... */" />
+            <marker date="1530705189080" expanded="true" signature="3429:4210" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3472:4204" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3542:4047" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="4118:4194" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -587,28 +730,35 @@
         <state relative-caret-position="952">
           <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
           <folding>
-            <marker date="1530638853768" expanded="false" signature="6:82" ph="..." />
-            <marker date="1530638853768" expanded="true" signature="105:4966" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="594:1038" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1114:3303" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1157:3166" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1310:1507" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1375:1493" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1540:1751" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1619:1737" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="2030:2336" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3351:3841" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3388:3428" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3520:3598" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3703:3796" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3894:3943" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3972:4016" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4050:4255" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4104:4249" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4290:4964" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4343:4958" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4385:4637" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4642:4907" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="6:82" ph="..." />
+            <marker date="1530706776399" expanded="true" signature="105:5694" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="567:988" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1064:3223" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1107:3117" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1260:1457" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1325:1443" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1490:1701" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1569:1687" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1980:2287" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3271:3761" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3308:3348" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3440:3518" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3623:3716" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3814:3863" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3892:3936" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3970:4175" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4024:4169" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4210:4884" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4263:4878" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4305:4557" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4562:4827" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4936:5692" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4973:5224" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5052:5186" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5229:5686" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5265:5547" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5351:5501" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5598:5676" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -618,39 +768,40 @@
         <state relative-caret-position="425">
           <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
-            <marker date="1530638655321" expanded="false" signature="6:52" ph="..." />
-            <marker date="1530638655321" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
-            <marker date="1530638655321" expanded="true" signature="208:7101" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
-            <marker date="1530638655321" expanded="true" signature="717:935" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
-            <marker date="1530638655321" expanded="true" signature="1412:3012" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1603:2882" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
-            <marker date="1530638655321" expanded="true" signature="1780:2353" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2172:2339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2260:2321" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2379:2718" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
-            <marker date="1530638655321" expanded="true" signature="2908:2977" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
-            <marker date="1530638655321" expanded="true" signature="3622:3968" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3652:3765" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
-            <marker date="1530638655321" expanded="true" signature="4728:6989" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4765:6983" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
-            <marker date="1530638655321" expanded="true" signature="4944:5568" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5101:5352" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5229:5334" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5421:5554" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5807:6198" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5940:6065" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6291:6339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6490:6856" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6595:6842" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6690:6824" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530705144538" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
+            <marker date="1530705144538" expanded="true" signature="208:7202" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
+            <marker date="1530705144538" expanded="true" signature="717:935" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
+            <marker date="1530705144538" expanded="true" signature="1412:3012" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1603:2882" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
+            <marker date="1530705144538" expanded="true" signature="1780:2353" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2172:2339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2260:2321" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2379:2718" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
+            <marker date="1530705144538" expanded="true" signature="2908:2977" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
+            <marker date="1530705144538" expanded="true" signature="3622:3968" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3652:3765" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
+            <marker date="1530705144538" expanded="true" signature="4728:6989" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4765:6983" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
+            <marker date="1530705144538" expanded="true" signature="4944:5568" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5101:5352" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5229:5334" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5421:5554" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5807:6198" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5940:6065" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6291:6339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6490:6856" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6595:6842" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6690:6824" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7150:7199" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -660,23 +811,27 @@
         <state relative-caret-position="901">
           <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
           <folding>
-            <marker date="1530638664283" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530638664283" expanded="true" signature="125:3735" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="543:1285" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="707:766" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1313:1624" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1340:1463" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1487:1618" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1658:1948" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1713:1782" ph="/* if (treeGenerated) { ... */" />
-            <marker date="1530638664283" expanded="true" signature="1847:1942" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1995:2172" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2050:2166" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2178:2899" ph="/* private void generateMesh(BranchSC branch) ... */" />
-            <marker date="1530638664283" expanded="true" signature="2951:3732" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2994:3726" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3064:3569" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3640:3716" ph="{...}" />
+            <marker date="1530705189080" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530705189080" expanded="true" signature="125:4213" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="604:1346" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="768:827" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1374:1744" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1401:1524" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1548:1738" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1778:2074" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1851:1908" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1973:2068" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2121:2298" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2176:2292" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2344:2650" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2378:2487" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2492:2644" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2560:2634" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2656:3377" ph="/* private void generateMesh(BranchSC branch) ... */" />
+            <marker date="1530705189080" expanded="true" signature="3429:4210" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3472:4204" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3542:4047" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="4118:4194" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -709,28 +864,35 @@
         <state relative-caret-position="561">
           <caret line="33" column="45" selection-start-line="33" selection-start-column="45" selection-end-line="33" selection-end-column="45" />
           <folding>
-            <marker date="1530638853768" expanded="false" signature="6:82" ph="..." />
-            <marker date="1530638853768" expanded="true" signature="105:4966" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="594:1038" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1114:3303" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1157:3166" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1310:1507" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1375:1493" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1540:1751" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1619:1737" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="2030:2336" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3351:3841" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3388:3428" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3520:3598" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3703:3796" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3894:3943" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3972:4016" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4050:4255" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4104:4249" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4290:4964" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4343:4958" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4385:4637" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4642:4907" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="6:82" ph="..." />
+            <marker date="1530706776399" expanded="true" signature="105:5694" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="567:988" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1064:3223" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1107:3117" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1260:1457" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1325:1443" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1490:1701" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1569:1687" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1980:2287" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3271:3761" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3308:3348" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3440:3518" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3623:3716" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3814:3863" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3892:3936" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3970:4175" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4024:4169" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4210:4884" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4263:4878" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4305:4557" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4562:4827" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4936:5692" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4973:5224" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5052:5186" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5229:5686" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5265:5547" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5351:5501" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5598:5676" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -740,39 +902,40 @@
         <state relative-caret-position="442">
           <caret line="26" column="60" selection-start-line="26" selection-start-column="60" selection-end-line="26" selection-end-column="60" />
           <folding>
-            <marker date="1530638655321" expanded="false" signature="6:52" ph="..." />
-            <marker date="1530638655321" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
-            <marker date="1530638655321" expanded="true" signature="208:7101" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
-            <marker date="1530638655321" expanded="true" signature="717:935" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
-            <marker date="1530638655321" expanded="true" signature="1412:3012" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1603:2882" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
-            <marker date="1530638655321" expanded="true" signature="1780:2353" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2172:2339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2260:2321" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2379:2718" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
-            <marker date="1530638655321" expanded="true" signature="2908:2977" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
-            <marker date="1530638655321" expanded="true" signature="3622:3968" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3652:3765" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
-            <marker date="1530638655321" expanded="true" signature="4728:6989" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4765:6983" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
-            <marker date="1530638655321" expanded="true" signature="4944:5568" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5101:5352" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5229:5334" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5421:5554" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5807:6198" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5940:6065" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6291:6339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6490:6856" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6595:6842" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6690:6824" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530705144538" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
+            <marker date="1530705144538" expanded="true" signature="208:7202" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
+            <marker date="1530705144538" expanded="true" signature="717:935" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
+            <marker date="1530705144538" expanded="true" signature="1412:3012" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1603:2882" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
+            <marker date="1530705144538" expanded="true" signature="1780:2353" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2172:2339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2260:2321" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2379:2718" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
+            <marker date="1530705144538" expanded="true" signature="2908:2977" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
+            <marker date="1530705144538" expanded="true" signature="3622:3968" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3652:3765" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
+            <marker date="1530705144538" expanded="true" signature="4728:6989" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4765:6983" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
+            <marker date="1530705144538" expanded="true" signature="4944:5568" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5101:5352" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5229:5334" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5421:5554" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5807:6198" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5940:6065" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6291:6339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6490:6856" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6595:6842" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6690:6824" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7150:7199" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -805,23 +968,27 @@
         <state relative-caret-position="935">
           <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
           <folding>
-            <marker date="1530638664283" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530638664283" expanded="true" signature="125:3735" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="543:1285" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="707:766" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1313:1624" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1340:1463" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1487:1618" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1658:1948" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1713:1782" ph="/* if (treeGenerated) { ... */" />
-            <marker date="1530638664283" expanded="true" signature="1847:1942" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1995:2172" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2050:2166" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2178:2899" ph="/* private void generateMesh(BranchSC branch) ... */" />
-            <marker date="1530638664283" expanded="true" signature="2951:3732" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2994:3726" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3064:3569" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3640:3716" ph="{...}" />
+            <marker date="1530705189080" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530705189080" expanded="true" signature="125:4213" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="604:1346" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="768:827" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1374:1744" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1401:1524" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1548:1738" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1778:2074" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1851:1908" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1973:2068" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2121:2298" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2176:2292" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2344:2650" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2378:2487" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2492:2644" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2560:2634" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2656:3377" ph="/* private void generateMesh(BranchSC branch) ... */" />
+            <marker date="1530705189080" expanded="true" signature="3429:4210" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3472:4204" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3542:4047" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="4118:4194" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -831,28 +998,35 @@
         <state relative-caret-position="714">
           <caret line="43" selection-start-line="43" selection-end-line="43" />
           <folding>
-            <marker date="1530638853768" expanded="false" signature="6:82" ph="..." />
-            <marker date="1530638853768" expanded="true" signature="105:4966" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="594:1038" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1114:3303" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1157:3166" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1310:1507" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1375:1493" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1540:1751" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1619:1737" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="2030:2336" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3351:3841" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3388:3428" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3520:3598" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3703:3796" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3894:3943" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3972:4016" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4050:4255" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4104:4249" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4290:4964" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4343:4958" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4385:4637" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4642:4907" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="6:82" ph="..." />
+            <marker date="1530706776399" expanded="true" signature="105:5694" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="567:988" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1064:3223" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1107:3117" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1260:1457" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1325:1443" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1490:1701" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1569:1687" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1980:2287" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3271:3761" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3308:3348" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3440:3518" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3623:3716" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3814:3863" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3892:3936" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3970:4175" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4024:4169" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4210:4884" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4263:4878" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4305:4557" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4562:4827" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4936:5692" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4973:5224" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5052:5186" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5229:5686" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5265:5547" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5351:5501" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5598:5676" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -862,39 +1036,40 @@
         <state relative-caret-position="374">
           <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding>
-            <marker date="1530638655321" expanded="false" signature="6:52" ph="..." />
-            <marker date="1530638655321" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
-            <marker date="1530638655321" expanded="true" signature="208:7101" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
-            <marker date="1530638655321" expanded="true" signature="717:935" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
-            <marker date="1530638655321" expanded="true" signature="1412:3012" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1603:2882" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
-            <marker date="1530638655321" expanded="true" signature="1780:2353" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2172:2339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2260:2321" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2379:2718" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
-            <marker date="1530638655321" expanded="true" signature="2908:2977" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
-            <marker date="1530638655321" expanded="true" signature="3622:3968" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3652:3765" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
-            <marker date="1530638655321" expanded="true" signature="4728:6989" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4765:6983" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
-            <marker date="1530638655321" expanded="true" signature="4944:5568" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5101:5352" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5229:5334" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5421:5554" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5807:6198" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5940:6065" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6291:6339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6490:6856" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6595:6842" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6690:6824" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530705144538" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
+            <marker date="1530705144538" expanded="true" signature="208:7202" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
+            <marker date="1530705144538" expanded="true" signature="717:935" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
+            <marker date="1530705144538" expanded="true" signature="1412:3012" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1603:2882" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
+            <marker date="1530705144538" expanded="true" signature="1780:2353" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2172:2339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2260:2321" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2379:2718" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
+            <marker date="1530705144538" expanded="true" signature="2908:2977" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
+            <marker date="1530705144538" expanded="true" signature="3622:3968" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3652:3765" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
+            <marker date="1530705144538" expanded="true" signature="4728:6989" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4765:6983" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
+            <marker date="1530705144538" expanded="true" signature="4944:5568" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5101:5352" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5229:5334" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5421:5554" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5807:6198" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5940:6065" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6291:6339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6490:6856" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6595:6842" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6690:6824" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7150:7199" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -928,23 +1103,27 @@
         <state relative-caret-position="867">
           <caret line="53" column="37" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
           <folding>
-            <marker date="1530638664283" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530638664283" expanded="true" signature="125:3735" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="543:1285" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="707:766" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1313:1624" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1340:1463" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1487:1618" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1658:1948" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1713:1782" ph="/* if (treeGenerated) { ... */" />
-            <marker date="1530638664283" expanded="true" signature="1847:1942" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1995:2172" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2050:2166" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2178:2899" ph="/* private void generateMesh(BranchSC branch) ... */" />
-            <marker date="1530638664283" expanded="true" signature="2951:3732" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2994:3726" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3064:3569" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3640:3716" ph="{...}" />
+            <marker date="1530705189080" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530705189080" expanded="true" signature="125:4213" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="604:1346" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="768:827" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1374:1744" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1401:1524" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1548:1738" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1778:2074" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1851:1908" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1973:2068" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2121:2298" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2176:2292" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2344:2650" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2378:2487" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2492:2644" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2560:2634" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2656:3377" ph="/* private void generateMesh(BranchSC branch) ... */" />
+            <marker date="1530705189080" expanded="true" signature="3429:4210" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3472:4204" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3542:4047" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="4118:4194" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -954,39 +1133,40 @@
         <state relative-caret-position="1870">
           <caret line="111" column="5" selection-start-line="111" selection-start-column="5" selection-end-line="111" selection-end-column="5" />
           <folding>
-            <marker date="1530638655321" expanded="false" signature="6:52" ph="..." />
-            <marker date="1530638655321" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
-            <marker date="1530638655321" expanded="true" signature="208:7101" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
-            <marker date="1530638655321" expanded="true" signature="717:935" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
-            <marker date="1530638655321" expanded="true" signature="1412:3012" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1603:2882" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
-            <marker date="1530638655321" expanded="true" signature="1780:2353" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2172:2339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2260:2321" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2379:2718" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
-            <marker date="1530638655321" expanded="true" signature="2908:2977" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
-            <marker date="1530638655321" expanded="true" signature="3622:3968" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3652:3765" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
-            <marker date="1530638655321" expanded="true" signature="4728:6989" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4765:6983" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
-            <marker date="1530638655321" expanded="true" signature="4944:5568" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5101:5352" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5229:5334" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5421:5554" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5807:6198" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5940:6065" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6291:6339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6490:6856" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6595:6842" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6690:6824" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530705144538" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
+            <marker date="1530705144538" expanded="true" signature="208:7202" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
+            <marker date="1530705144538" expanded="true" signature="717:935" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
+            <marker date="1530705144538" expanded="true" signature="1412:3012" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1603:2882" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
+            <marker date="1530705144538" expanded="true" signature="1780:2353" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2172:2339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2260:2321" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2379:2718" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
+            <marker date="1530705144538" expanded="true" signature="2908:2977" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
+            <marker date="1530705144538" expanded="true" signature="3622:3968" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3652:3765" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
+            <marker date="1530705144538" expanded="true" signature="4728:6989" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4765:6983" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
+            <marker date="1530705144538" expanded="true" signature="4944:5568" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5101:5352" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5229:5334" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5421:5554" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5807:6198" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5940:6065" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6291:6339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6490:6856" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6595:6842" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6690:6824" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7150:7199" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1028,23 +1208,27 @@
         <state relative-caret-position="714">
           <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
           <folding>
-            <marker date="1530638664283" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530638664283" expanded="true" signature="125:3735" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="543:1285" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="707:766" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1313:1624" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1340:1463" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1487:1618" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1658:1948" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1713:1782" ph="/* if (treeGenerated) { ... */" />
-            <marker date="1530638664283" expanded="true" signature="1847:1942" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1995:2172" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2050:2166" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2178:2899" ph="/* private void generateMesh(BranchSC branch) ... */" />
-            <marker date="1530638664283" expanded="true" signature="2951:3732" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2994:3726" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3064:3569" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3640:3716" ph="{...}" />
+            <marker date="1530705189080" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530705189080" expanded="true" signature="125:4213" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="604:1346" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="768:827" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1374:1744" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1401:1524" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1548:1738" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1778:2074" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1851:1908" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1973:2068" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2121:2298" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2176:2292" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2344:2650" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2378:2487" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2492:2644" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2560:2634" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2656:3377" ph="/* private void generateMesh(BranchSC branch) ... */" />
+            <marker date="1530705189080" expanded="true" signature="3429:4210" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3472:4204" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3542:4047" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="4118:4194" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1062,64 +1246,35 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeOctreeSC.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Deprecated/TreeGenerator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2862">
+        <state relative-caret-position="-2862" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/PointCloud.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1892">
           <folding>
-            <marker date="1530110691215" expanded="false" signature="6:71" ph="..." />
-            <marker date="1530110691215" expanded="true" signature="116:11204" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="140:1212" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="284:1206" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="477:920" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="1062:1169" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="1690:2353" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="1701:1777" ph="/* Generate the atraction points ... */" />
-            <marker date="1530110691215" expanded="true" signature="2412:2961" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="2447:2696" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="2579:2669" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="2716:2955" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="2995:3419" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3006:3133" ph="/* for (int i = 0; i &lt; pointCloud.pointList.Count; i++) { ... */" />
-            <marker date="1530110691215" expanded="true" signature="3157:3413" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3205:3403" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3248:3389" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3449:4050" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3532:4044" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3609:3774" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3707:3760" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="3799:4034" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4079:5470" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4143:4727" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4273:4586" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4309:4572" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4446:4554" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4625:4717" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4802:5076" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4834:5066" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="4928:4985" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5139:5464" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5223:5454" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5311:5440" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5500:5590" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5544:5584" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5625:5890" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5669:5884" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="5923:11202" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="6070:10144" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="6126:10122" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="6622:8448" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="7168:7706" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="7980:8367" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="8824:8925" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="8983:9102" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="9321:9733" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="9796:9981" ph="{...}" />
-            <marker date="1530110691215" expanded="true" signature="10154:11196" ph="/* MeshFilter[] meshFilters = tree.GetComponentsInChildren&lt;MeshFilter&gt;(); ... */" />
+            <marker date="1530206594341" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530206594341" expanded="true" signature="155:4600" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="539:555" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="591:2624" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="691:2618" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="850:930" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="1284:1879" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="1742:1813" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="2387:2463" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="2666:3423" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="3374:3417" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="3469:4244" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="4195:4238" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="4300:4598" ph="{...}" />
+            <marker date="1530206594341" expanded="true" signature="4515:4592" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchMesh.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="993">
+        <state relative-caret-position="723">
           <caret line="98" column="44" selection-start-line="98" selection-start-column="44" selection-end-line="98" selection-end-column="44" />
           <folding>
             <marker date="1530632728423" expanded="false" signature="6:52" ph="..." />
@@ -1143,122 +1298,124 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeGeneratorSC.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="289">
+          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
           <folding>
-            <marker date="1530638664283" expanded="false" signature="6:78" ph="..." />
-            <marker date="1530638664283" expanded="true" signature="125:3735" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="543:1285" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="707:766" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1313:1624" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1340:1463" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1487:1618" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1658:1948" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1713:1782" ph="/* if (treeGenerated) { ... */" />
-            <marker date="1530638664283" expanded="true" signature="1847:1942" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="1995:2172" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2050:2166" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2178:2899" ph="/* private void generateMesh(BranchSC branch) ... */" />
-            <marker date="1530638664283" expanded="true" signature="2951:3732" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="2994:3726" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3064:3569" ph="{...}" />
-            <marker date="1530638664283" expanded="true" signature="3640:3716" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/PointCloud.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1530206594341" expanded="false" signature="6:52" ph="..." />
-            <marker date="1530206594341" expanded="true" signature="155:4600" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="539:555" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="591:2624" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="691:2618" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="850:930" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="1284:1879" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="1742:1813" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="2387:2463" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="2666:3423" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="3374:3417" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="3469:4244" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="4195:4238" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="4300:4598" ph="{...}" />
-            <marker date="1530206594341" expanded="true" signature="4515:4592" ph="{...}" />
+            <marker date="1530705189080" expanded="false" signature="6:78" ph="..." />
+            <marker date="1530705189080" expanded="true" signature="125:4213" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="604:1346" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="768:827" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1374:1744" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1401:1524" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1548:1738" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1778:2074" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1851:1908" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="1973:2068" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2121:2298" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2176:2292" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2344:2650" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2378:2487" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2492:2644" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2560:2634" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="2656:3377" ph="/* private void generateMesh(BranchSC branch) ... */" />
+            <marker date="1530705189080" expanded="true" signature="3429:4210" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3472:4204" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="3542:4047" ph="{...}" />
+            <marker date="1530705189080" expanded="true" signature="4118:4194" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TreeSC.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="66" column="81" selection-start-line="66" selection-start-column="81" selection-end-line="66" selection-end-column="81" />
+        <state relative-caret-position="383">
+          <caret line="179" column="34" selection-start-line="179" selection-start-column="34" selection-end-line="179" selection-end-column="34" />
           <folding>
-            <marker date="1530638655321" expanded="false" signature="6:52" ph="..." />
-            <marker date="1530638655321" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
-            <marker date="1530638655321" expanded="true" signature="208:7101" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
-            <marker date="1530638655321" expanded="true" signature="717:935" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
-            <marker date="1530638655321" expanded="true" signature="1412:3012" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1603:2882" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
-            <marker date="1530638655321" expanded="true" signature="1780:2353" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2172:2339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2260:2321" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2379:2718" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
-            <marker date="1530638655321" expanded="true" signature="2908:2977" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
-            <marker date="1530638655321" expanded="true" signature="3622:3968" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3652:3765" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
-            <marker date="1530638655321" expanded="true" signature="4728:6989" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4765:6983" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
-            <marker date="1530638655321" expanded="true" signature="4944:5568" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5101:5352" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5229:5334" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5421:5554" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5807:6198" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="5940:6065" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6291:6339" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6490:6856" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6595:6842" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="6690:6824" ph="{...}" />
-            <marker date="1530638655321" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="false" signature="6:52" ph="..." />
+            <marker date="1530705144538" expanded="true" signature="54:187" ph="/* TreeSC stores a 3D tree model dividen in branches, the trei is ... */" />
+            <marker date="1530705144538" expanded="true" signature="208:7202" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="521:671" ph="/// Constructs a new Tree ... " />
+            <marker date="1530705144538" expanded="true" signature="717:935" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="945:1301" ph="/// Grow the truck of the tree until it reaches the point cloud. ... " />
+            <marker date="1530705144538" expanded="true" signature="1412:3012" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1603:2882" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="1617:1715" ph="/* Look in the point list if there is any point that can affect ... */" />
+            <marker date="1530705144538" expanded="true" signature="1780:2353" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2172:2339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2260:2321" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2379:2718" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="2522:2704" ph="/* endedBranchList.Add(growBranchList[growBranchList.Count - 1]); ... */" />
+            <marker date="1530705144538" expanded="true" signature="2908:2977" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3018:3495" ph="/// Grow the tree until all the points in the point cloud are removed, or all the ... " />
+            <marker date="1530705144538" expanded="true" signature="3622:3968" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3652:3765" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="3974:4591" ph="/// Grows all the branches in the growBranchLIst in the direction defined by the ... " />
+            <marker date="1530705144538" expanded="true" signature="4728:6989" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4765:6983" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="4792:4894" ph="/* Calculate the grow direction of all the branches with the points in ... */" />
+            <marker date="1530705144538" expanded="true" signature="4944:5568" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5101:5352" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5229:5334" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5421:5554" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5807:6198" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="5940:6065" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6291:6339" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6490:6856" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6595:6842" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="6690:6824" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7023:7098" ph="{...}" />
+            <marker date="1530705144538" expanded="true" signature="7150:7199" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/BranchSC.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="42" column="98" lean-forward="true" selection-start-line="42" selection-start-column="98" selection-end-line="42" selection-end-column="98" />
+        <state relative-caret-position="111">
+          <caret line="151" column="62" selection-start-line="151" selection-start-column="62" selection-end-line="151" selection-end-column="62" />
           <folding>
-            <marker date="1530638853768" expanded="false" signature="6:82" ph="..." />
-            <marker date="1530638853768" expanded="true" signature="105:4966" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="594:1038" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1114:3303" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1157:3166" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1310:1507" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1375:1493" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1540:1751" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="1619:1737" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="2030:2336" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3351:3841" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3388:3428" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3520:3598" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3703:3796" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3894:3943" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="3972:4016" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4050:4255" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4104:4249" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4290:4964" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4343:4958" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4385:4637" ph="{...}" />
-            <marker date="1530638853768" expanded="true" signature="4642:4907" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="6:82" ph="..." />
+            <marker date="1530706776399" expanded="true" signature="105:5694" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="567:988" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1064:3223" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1107:3117" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1260:1457" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1325:1443" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1490:1701" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1569:1687" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="1980:2287" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3271:3761" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3308:3348" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3440:3518" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3623:3716" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3814:3863" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3892:3936" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="3970:4175" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4024:4169" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4210:4884" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4263:4878" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4305:4557" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4562:4827" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4936:5692" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="4973:5224" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5052:5186" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5229:5686" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5265:5547" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5351:5501" ph="{...}" />
+            <marker date="1530706776399" expanded="true" signature="5598:5676" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/MyScripts/TwoSideQuad.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+          <folding>
+            <marker date="1530707486099" expanded="true" signature="6:78" ph="..." />
+            <marker date="1530707486099" expanded="true" signature="104:2620" ph="{...}" />
+            <marker date="1530707486099" expanded="true" signature="258:420" ph="{...}" />
+            <marker date="1530707486099" expanded="true" signature="481:2618" ph="{...}" />
           </folding>
         </state>
       </provider>
