@@ -17,8 +17,7 @@ public class TreeGeneratorSC : MonoBehaviour {
 
     public PointCloud pointCloud = new PointCloud();
 
-    public Color leaveColor1;
-    public Color leaveColor2;
+    public Material LeaveMaterial;
 
     private float attractDits;
     private float removeDist;
@@ -58,7 +57,7 @@ public class TreeGeneratorSC : MonoBehaviour {
         {
             treeGenerated = true;
             tree.nodeRelocation();
-            tree.generateLeaves(leaveColor1, leaveColor2);
+            tree.generateLeaves(LeaveMaterial);
             pointCloud.pointList.Clear();
         } else
         {

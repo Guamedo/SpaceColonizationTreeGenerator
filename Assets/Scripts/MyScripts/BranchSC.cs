@@ -8,6 +8,7 @@ public class BranchSC{
     public Vector3 pos;
     public float rad;
     public Vector3 growDir;
+    public int growIteration;
     
     public BranchSC parent;
     public List<BranchSC> childs;
@@ -22,10 +23,11 @@ public class BranchSC{
     public GameObject go;
     public GameObject tree;
 
-    public BranchSC(Vector3 pos, BranchSC parent, bool isTrunk, Material mat, ref GameObject tree, float initialRad = 0.1f) {
+    public BranchSC(Vector3 pos, BranchSC parent, bool isTrunk, Material mat, ref GameObject tree, int growIteration, float initialRad = 0.1f) {
         this.pos = pos;
         this.tree = tree;
         this.parent = parent;
+        this.growIteration = growIteration;
         childs = new List<BranchSC>();
         rad = initialRad;
         growDir = new Vector3(0.0f, 0.0f, 0.0f);
@@ -58,7 +60,7 @@ public class BranchSC{
                 }
             }
             
-            BranchSC newBranch = new BranchSC(newPos, this, growTrunk, branchMaterial, ref tree);
+            BranchSC newBranch = new BranchSC(newPos, this, growTrunk, branchMaterial, ref tree, growIteration + 1);
             this.growDir = new Vector3(0.0f, 0.0f, 0.0f);
             this.childs.Add(newBranch);
 
@@ -94,20 +96,20 @@ public class BranchSC{
         }
     }
 
-    public float calculateRad(float n = 2.0f) {
+    public float calculateRad(int maxGrowIteration, float n = 2.0f) {
         if(this.childs.Count == 0) {
-            return this.rad;
+            return this.rad + (1 - growIteration/maxGrowIteration)*0.0f;
         } else {
             float radVal = 0.0f;
             foreach(BranchSC child in this.childs) {
-                radVal += Mathf.Pow(child.calculateRad(n), n);
+                radVal += Mathf.Pow(child.calculateRad(maxGrowIteration, n), n);
             }
             this.rad = Mathf.Pow(radVal, 1.0f / n);
             for (int i = 0; i < meshList.Count; i++)
             {
                 meshList[i].recalculateMesh(rad, childs[i].rad);
             }
-            return this.rad;
+            return this.rad + (1 - growIteration/maxGrowIteration)*0.0f;
         }
     }
 
@@ -145,19 +147,18 @@ public class BranchSC{
                 meshList[i].endRing = new Ring(childs[i].pos, childs[i].pos - pos, childs[i].rad);
                 meshList[i].recalculateMesh();
             }
-            
             childs[i].recalcualteMesh();
         }
     }
 
-    public void generateLeaves(Color c1, Color c2)
+    public void generateLeaves(Material mat)
     {
         if (childs.Count == 0)
         {
             for (int i = 0; i < (int)Random.RandomRange(2, 10); i++)
             {
-                TwoSideQuad quad = new TwoSideQuad(pos, 2.0f);
-                leaves.Add(quad.generateQuad(c1, c2));
+                TwoSideQuad quad = new TwoSideQuad(pos, 4.0f);
+                leaves.Add(quad.generateQuad(mat));
                 leavesTimeOut.Add(Random.Range(5.0f, 60.0f));
             }
             hasLeaf = true;
@@ -165,17 +166,17 @@ public class BranchSC{
         {
             if (!isTrunk && rad <= 0.1f)
             {
-                for (int i = 0; i < (int)Random.RandomRange(0, 1); i++)
+                for (int i = 0; i < (int)Random.RandomRange(0, 4); i++)
                 {
-                    TwoSideQuad quad = new TwoSideQuad(pos, 2.0f);
-                    leaves.Add(quad.generateQuad(c1, c2));
+                    TwoSideQuad quad = new TwoSideQuad(pos, 4.0f);
+                    leaves.Add(quad.generateQuad(mat));
                     leavesTimeOut.Add(Random.Range(5.0f, 60.0f));
                 }
                 hasLeaf = true;
             }
             for (int i = 0; i < childs.Count; i++)
             {
-                childs[i].generateLeaves(c1, c2);
+                childs[i].generateLeaves(mat);
             }
         }
     }

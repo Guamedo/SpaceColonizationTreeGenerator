@@ -12,20 +12,20 @@ public class TwoSideQuad{
     public TwoSideQuad(Vector3 pos, float size) {
         this.pos = pos;
         this.size = size;
-        this.rotation = new Vector3(Random.Range(0, 180), Random.Range(0, 180), Random.Range(0, 180)); ;
+        rotation = new Vector3(Random.Range(0, 360), Random.Range(0, 360), Random.Range(0, 360));
     }
 
-    public GameObject generateQuad(Color col1, Color col2) {
+    public GameObject generateQuad(Material mat) {
 
         mesh = new Mesh();
 
         // Add the vertices to the mesh
         Vector3[] vertices = new Vector3[8];
 
-        vertices[0] = new Vector3(0.0f, 0.0f, 0.0f);
-        vertices[1] = new Vector3(0, 1, 0) * size;
-        vertices[2] = new Vector3(1, 1, 0) * size;
-        vertices[3] = new Vector3(1, 0, 0) * size;
+        vertices[0] = new Vector3(-0.5f, 0, 0) * size;
+        vertices[1] = new Vector3(-0.5f, 1, 0) * size;
+        vertices[2] = new Vector3(0.5f, 1, 0) * size;
+        vertices[3] = new Vector3(0.5f, 0, 0) * size;
 
         vertices[4] = vertices[0];
         vertices[5] = vertices[1];
@@ -77,14 +77,14 @@ public class TwoSideQuad{
         Vector2[] uv = new Vector2[8];
 
         uv[0] = new Vector2(0, 0);
-        uv[1] = new Vector2(1, 0);
-        uv[2] = new Vector2(0, 1);
-        uv[3] = new Vector2(1, 1);
+        uv[1] = new Vector2(0, 1);
+        uv[2] = new Vector2(1, 1);
+        uv[3] = new Vector2(1, 0);
 
-        uv[4] = new Vector2(0, 0);
-        uv[5] = new Vector2(1, 0);
-        uv[6] = new Vector2(0, 1);
-        uv[7] = new Vector2(1, 1);
+        uv[4] = uv[0];
+        uv[5] = uv[1];
+        uv[6] = uv[2];
+        uv[7] = uv[3];
 
         mesh.uv = uv;
 
@@ -92,9 +92,9 @@ public class TwoSideQuad{
         go.AddComponent<MeshFilter>();
         go.AddComponent<MeshRenderer>();
         go.GetComponent<MeshFilter>().mesh = mesh;
-
-        go.GetComponent<MeshRenderer>().material = new Material(Shader.Find("Standard"));
-        go.GetComponent<MeshRenderer>().material.color = Color.Lerp(col1, col2, Random.Range(0.0f, 1.0f));
+        Material newMat = new Material(mat);
+        newMat.SetFloat("_RandomValue", Random.Range(0.0f, 1.0f));
+        go.GetComponent<MeshRenderer>().material = newMat;
         go.AddComponent<BoxCollider>();
         go.GetComponent<BoxCollider>().size = new Vector3(go.GetComponent<BoxCollider>().size.x,
                                                             go.GetComponent<BoxCollider>().size.y, 

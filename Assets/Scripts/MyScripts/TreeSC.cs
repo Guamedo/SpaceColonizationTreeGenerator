@@ -18,6 +18,8 @@ public class TreeSC{
     // Game object to store the tree
     public GameObject tree;
 
+    public int maxGrowIteration;
+
     /// <summary>
     /// Constructs a new Tree
     /// </summary>
@@ -25,7 +27,8 @@ public class TreeSC{
     public TreeSC(Vector3 pos, Material mat) {
         tree = new GameObject("Tree");
         tree.transform.position = pos;
-        root = new BranchSC(pos, null, true, mat, ref tree);
+        root = new BranchSC(pos, null, true, mat, ref tree, 1);
+        maxGrowIteration = root.growIteration;
         growBranchList = new List<BranchSC>();
         canGrow = false;
     }
@@ -65,6 +68,10 @@ public class TreeSC{
 
             if (!found) {
                 BranchSC newBranch = currentBranch.grow(growDist, true, tropism);
+                if (newBranch.growIteration > maxGrowIteration)
+                {
+                    maxGrowIteration = newBranch.growIteration;
+                }
                 currentBranch = newBranch;
                 //endedBranchList.Add(growBranchList[growBranchList.Count - 1]);
                 //growBranchList.RemoveAt(growBranchList.Count - 1);
@@ -144,6 +151,10 @@ public class TreeSC{
                     branchNum--;
                 } else {
                     growBranchList.Add(newBranch);
+                    if (newBranch.growIteration > maxGrowIteration)
+                    {
+                        maxGrowIteration = newBranch.growIteration;
+                    }
                     addedNewBranch = true;
                 }
             }
@@ -165,7 +176,7 @@ public class TreeSC{
             }
             
             // Recalcualte the radious of all the branches in the tree
-            root.calculateRad();
+            root.calculateRad(maxGrowIteration);
         }
     }
 
@@ -175,9 +186,9 @@ public class TreeSC{
         root.recalcualteMesh();
     }
 
-    public void generateLeaves(Color c1, Color c2)
+    public void generateLeaves(Material mat)
     {
-        root.generateLeaves(c1, c2);
+        root.generateLeaves(mat);
     }
 
     public void updateLeaves(float t)

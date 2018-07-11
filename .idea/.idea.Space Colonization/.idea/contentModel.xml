@@ -35,6 +35,9 @@
             </e>
           </e>
         </e>
+        <e p="Shaders" t="Include">
+          <e p="myShader.shader" t="Include" />
+        </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
