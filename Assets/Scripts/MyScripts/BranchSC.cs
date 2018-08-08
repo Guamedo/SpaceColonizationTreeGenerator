@@ -1,9 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEditor.Animations;
 using UnityEngine;
+using Random = UnityEngine.Random;
 
 public class BranchSC{
-    
     
     public Vector3 pos;
     public float rad;
@@ -23,7 +24,7 @@ public class BranchSC{
     public GameObject go;
     public GameObject tree;
 
-    public BranchSC(Vector3 pos, BranchSC parent, bool isTrunk, Material mat, ref GameObject tree, int growIteration, float initialRad = 0.1f) {
+    public BranchSC(Vector3 pos, BranchSC parent, bool isTrunk, Material mat, ref GameObject tree, int growIteration, float initialRad = 0.01f) {
         this.pos = pos;
         this.tree = tree;
         this.parent = parent;
@@ -42,11 +43,11 @@ public class BranchSC{
     }
 
     public BranchSC grow(float growDist, bool growTrunk, Vector3 tropism) {
-        if(this.growDir.magnitude > 0.5) {
+        if(/*this.growDir.magnitude > 0.1*/true) {
 
             Vector3 newPos = this.pos + (this.growDir.normalized + tropism).normalized * growDist;
             foreach(BranchSC child in this.childs) {
-                if(Vector3.Distance(child.pos, newPos) <= 0.5) {
+                if(Vector3.Distance(child.pos, newPos) <= 0.05) {
                     this.growDir = new Vector3(0.0f, 0.0f, 0.0f);
                     return null;
                 }
@@ -54,7 +55,7 @@ public class BranchSC{
 
             if (parent != null)
             {
-                if(Vector3.Distance(parent.pos, newPos) <= 0.5) {
+                if(Vector3.Distance(parent.pos, newPos) <= 0.05) {
                     this.growDir = new Vector3(0.0f, 0.0f, 0.0f);
                     return null;
                 }
@@ -97,8 +98,9 @@ public class BranchSC{
     }
 
     public float calculateRad(int maxGrowIteration, float n = 2.0f) {
-        if(this.childs.Count == 0) {
-            return this.rad + (1 - growIteration/maxGrowIteration)*0.0f;
+        if(this.childs.Count == 0)
+        {
+            return this.rad;// + Mathf.Pow((1 - growIteration/maxGrowIteration), 3)*0.02f;
         } else {
             float radVal = 0.0f;
             foreach(BranchSC child in this.childs) {
@@ -109,7 +111,8 @@ public class BranchSC{
             {
                 meshList[i].recalculateMesh(rad, childs[i].rad);
             }
-            return this.rad + (1 - growIteration/maxGrowIteration)*0.0f;
+
+            return this.rad;// + Mathf.Pow((1 - growIteration/maxGrowIteration), 3)*0.02f;
         }
     }
 
@@ -157,8 +160,10 @@ public class BranchSC{
         {
             for (int i = 0; i < (int)Random.RandomRange(2, 10); i++)
             {
-                TwoSideQuad quad = new TwoSideQuad(pos, 4.0f);
-                leaves.Add(quad.generateQuad(mat));
+                TwoSideQuad quad = new TwoSideQuad(pos, 0.2f);
+                GameObject newLeave = quad.generateQuad(mat);
+                newLeave.transform.parent = go.transform;
+                leaves.Add(newLeave);
                 leavesTimeOut.Add(Random.Range(5.0f, 60.0f));
             }
             hasLeaf = true;
@@ -168,8 +173,10 @@ public class BranchSC{
             {
                 for (int i = 0; i < (int)Random.RandomRange(0, 4); i++)
                 {
-                    TwoSideQuad quad = new TwoSideQuad(pos, 4.0f);
-                    leaves.Add(quad.generateQuad(mat));
+                    TwoSideQuad quad = new TwoSideQuad(pos, 0.2f);
+                    GameObject newLeave = quad.generateQuad(mat);
+                    newLeave.transform.parent = go.transform;
+                    leaves.Add(newLeave);
                     leavesTimeOut.Add(Random.Range(5.0f, 60.0f));
                 }
                 hasLeaf = true;

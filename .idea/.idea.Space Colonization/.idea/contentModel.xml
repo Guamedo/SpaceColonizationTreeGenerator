@@ -18,6 +18,7 @@
             <e p="BranchMesh.cs" t="Include" />
             <e p="BranchSC.cs" t="Include" />
             <e p="FirsPersonCamera.cs" t="Include" />
+            <e p="ForestGeneratorSC.cs" t="Include" />
             <e p="PointCloud.cs" t="Include" />
             <e p="TreeGeneratorSC.cs" t="Include" />
             <e p="TreeSC.cs" t="Include" />
@@ -36,7 +37,7 @@
           </e>
         </e>
         <e p="Shaders" t="Include">
-          <e p="myShader.shader" t="Include" />
+          <e p="leaveShader.shader" t="Include" />
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

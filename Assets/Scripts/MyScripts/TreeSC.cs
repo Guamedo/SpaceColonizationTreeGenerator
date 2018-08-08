@@ -136,14 +136,14 @@ public class TreeSC{
                     }
                 }
                 if (minDist <= attractionDist && minDistIndex >= 0) {
-                    this.growBranchList[minDistIndex].growDir += (point - this.growBranchList[minDistIndex].pos);
+                    this.growBranchList[minDistIndex].growDir += (point - this.growBranchList[minDistIndex].pos).normalized;
                 }
             }
             
             // Try to add a new branch to all the branches in the growBranchList
             bool addedNewBranch = false;
             int branchNum = this.growBranchList.Count;
-            for (int i = 0; i < branchNum; i++) {
+            for (int i = 0; i < branchNum; i++){
                 BranchSC newBranch = this.growBranchList[i].grow(growDist, false, tropism);
                 if (newBranch == null) {
                     growBranchList.RemoveAt(i);

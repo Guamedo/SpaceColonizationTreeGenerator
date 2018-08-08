@@ -61,7 +61,7 @@ public class TreeGeneratorSC : MonoBehaviour {
             pointCloud.pointList.Clear();
         } else
         {
-            tree.updateLeaves(Time.time);
+            //tree.updateLeaves(Time.time);
         }
     }
 

@@ -41,18 +41,6 @@ public class BranchMesh
 	public Ring startRing;
 	public Ring endRing;
 	public int pointNumber;
-	/*
-	private Vector3 startPoint;
-	private Vector3 endPoint;
-	private List<Vector3> startRing;
-	private List<Vector3> endRing;
-	//private Vector3 startDir;
-	//private Vector3 endDir;
-	private float startRad;
-	private float endRad;
-	*/
-	
-	
 
 	public BranchMesh(Vector3 pos, 
 						Vector3 startDir, 
@@ -83,6 +71,7 @@ public class BranchMesh
 		}
 
 		int[] tri = new int[6 * pointNumber + 3 * (pointNumber-2)];
+		//int[] tri = new int[6 * pointNumber + 3];
 		int face = 0;
 		for (int i = 0; i < this.pointNumber; i++)
 		{
@@ -96,6 +85,7 @@ public class BranchMesh
 			face += 6;
 		}
 
+		
 		for (int i = 2; i < this.pointNumber; i++)
 		{
 			tri[face] = this.pointNumber + 1;
@@ -103,6 +93,7 @@ public class BranchMesh
 			tri[face+2] = this.pointNumber + i;
 			face += 3;
 		}
+		
 
 		mesh.vertices = vertices;
 		mesh.triangles = tri;
